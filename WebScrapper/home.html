@@ -1,0 +1,40 @@
+<!-- html page to ask user for input and scrape images from google -->
+<html>
+    <head>
+        <title>WebScrapper</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Web Scrapper</h1>
+                <p>Enter the name of the image you want to scrape from google</p>
+            </div>
+            <form action="" method="POST">
+                <div class="form-group">
+                    <label for="search">Search here</label>
+                    <input type="text" name="search" placeholder="Search" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <br>
+            <div class="row">
+                {% if images %}
+                    {% for image in images %}
+                        <div class="col-md-4">
+                            <div class="card" style="width: 20rem;">
+                                <img class="card-img-top" src="{{ image }}" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">{{ image }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            </div>
+        </div>
+    </body>
+</html>
+```
+## Output
+![Output](

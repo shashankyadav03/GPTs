@@ -25,6 +25,11 @@ def get_completion(prompt, model="gpt-3.5-turbo-1106", temperature=0):
     message_content = response['choices'][0]['message']['content']
     return message_content
 
-prompt = "Translate the following : 'Hello, how are you?'"
-response = get_completion(prompt)
-print(response)
+
+def main():
+    prompt = "Translate the following : 'Hello, how are you?'"
+    response = get_completion(prompt)
+    print(response)
+
+if __name__ == "__main__":
+    main()
