@@ -1,6 +1,3 @@
-To provide clear instructions on how to run the Flask application, you can create a `README.md` file that outlines the steps to set up and start the application. Here's an example `README.md` you can use:
-
-```markdown
 # Simple Web Scraper Flask Application
 
 This is a simple web scraper application built with Flask. It provides a basic interface to input a URL, which it then scrapes to return the page title.
@@ -60,11 +57,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-If you need to contact me, you can reach out at `your-email@example.com`.
-```
-
-Save this content to a file named `README.md` in the root directory of your Flask application. The `README.md` file uses Markdown formatting, which is standard for documentation on platforms like GitHub and Bitbucket.
-
-Remember to replace `your-email@example.com` with your actual email address if you want to provide a point of contact.
-
-This file provides all the necessary instructions for setting up and running the application, as well as providing a channel for feedback and contributions.
+If you need to contact me, you can reach out.

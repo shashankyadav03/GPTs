@@ -13,7 +13,7 @@ def scrape():
     data = request.json
     url = data['url']
     result = {}
-    try {
+    try:
         response = requests.get(url)
         soup = BeautifulSoup(response.text, 'html.parser')
         title = soup.find('title').get_text()
