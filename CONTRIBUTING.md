@@ -58,7 +58,3 @@ By contributing, you agree that your contributions will be licensed under the pr
 ## Contact
 
 - For questions or support, open an issue or contact.
-
----
-
-Feel free to customize this template to fit the specifics of your project and the guidelines you want to establish for contributors.
